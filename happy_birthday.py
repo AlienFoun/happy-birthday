@@ -21,4 +21,4 @@ for person in persons:
 
     if current_person_bdate == current_date:
         Vk.msg(vk_session, text=choice(congrats_list), userid=person_id)
-        print(f'Поздравление отправлено пользователю {person["first_name"]} {person["last_name"]}.')
+        print(f'Congratulations sent to the user {person["first_name"]} {person["last_name"]}.')
